@@ -1,0 +1,744 @@
+﻿chunks 1612 first SSTR decompLen 198020 expected 198020
+
+=== All INST classes ===
+0	1x	AssetService [service]
+1	1x	Atmosphere
+2	1x	AvatarAbilityRules
+3	1x	AvatarAccessoryRules
+4	1x	AvatarAnimationRules
+5	1x	AvatarBodyRules
+6	1x	AvatarClothingRules
+7	1x	AvatarCollisionRules
+8	1x	AvatarRules
+9	1x	AvatarSettings [service]
+10	2x	BloomEffect
+11	1x	BlurEffect
+12	1x	BubbleChatConfiguration
+13	1x	CSGDictionaryService [service]
+14	1x	Camera
+15	1x	ChannelTabsConfiguration
+16	1x	Chat [service]
+17	1x	ChatInputBarConfiguration
+18	1x	ChatWindowConfiguration
+19	1x	CollectionService [service]
+20	1x	ColorCorrectionEffect
+21	1x	ContextActionService [service]
+22	1x	CookiesService [service]
+23	1x	DataStoreService [service]
+24	1x	Debris [service]
+25	1x	Decal
+26	1x	DepthOfFieldEffect
+27	1x	GamePassService [service]
+28	1x	GuidRegistryService [service]
+29	1x	HttpService [service]
+30	1x	ImageLabel
+31	1x	InsertService [service]
+32	4x	Instance
+33	1x	Lighting [service]
+34	1x	LocalizationService [service]
+35	1x	LodDataService [service]
+36	1x	LuaWebService [service]
+37	1x	MaterialService [service]
+38	32x	MeshPart
+39	33x	Model
+40	1x	NonReplicatedCSGDictionaryService [service]
+41	1x	Packages [service]
+42	1x	PermissionsService [service]
+43	1x	PhysicsService [service]
+44	1x	PlayerEmulatorService [service]
+45	1x	Players [service]
+46	1x	ProcessInstancePhysicsService [service]
+47	1x	ProximityPromptService [service]
+48	1x	ReplicatedFirst [service]
+49	1x	ReplicatedStorage [service]
+50	1x	ScriptService [service]
+51	1x	Selection [service]
+52	1x	SerializationService [service]
+53	1x	ServerScriptService [service]
+54	1x	ServerStorage [service]
+55	1x	ServiceVisibilityService [service]
+56	1x	SoundService [service]
+57	1x	SpawnLocation
+58	1x	StarterCharacterScripts
+59	1x	StarterGui [service]
+60	1x	StarterPack [service]
+61	1x	StarterPlayer [service]
+62	1x	StarterPlayerScripts
+63	1x	StringValue
+64	1x	StudioData [service]
+65	2x	SunRaysEffect
+66	1x	Teams [service]
+67	1x	TeleportService [service]
+68	1x	Terrain
+69	1x	TestService [service]
+70	1x	TextChatService [service]
+71	1x	TimerService [service]
+72	1x	TouchInputService [service]
+73	1x	TweenService [service]
+74	1x	UGCAvatarService [service]
+75	1x	UICorner
+76	1x	UIGradient
+77	1x	UIPadding
+78	1x	VRService [service]
+79	1x	VideoCaptureService [service]
+80	1x	VideoService [service]
+81	1x	VirtualInputManager [service]
+82	1x	VoiceChatService [service]
+83	1x	Workspace [service]
+
+=== Relevant classes ===
+{"typeId":12,"name":"BubbleChatConfiguration","isService":0,"count":1}
+{"typeId":15,"name":"ChannelTabsConfiguration","isService":0,"count":1}
+{"typeId":17,"name":"ChatInputBarConfiguration","isService":0,"count":1}
+{"typeId":18,"name":"ChatWindowConfiguration","isService":0,"count":1}
+{"typeId":19,"name":"CollectionService","isService":1,"count":1}
+{"typeId":38,"name":"MeshPart","isService":0,"count":32}
+{"typeId":39,"name":"Model","isService":0,"count":33}
+{"typeId":50,"name":"ScriptService","isService":1,"count":1}
+{"typeId":53,"name":"ServerScriptService","isService":1,"count":1}
+{"typeId":58,"name":"StarterCharacterScripts","isService":0,"count":1}
+{"typeId":62,"name":"StarterPlayerScripts","isService":0,"count":1}
+{"typeId":63,"name":"StringValue","isService":0,"count":1}
+{"typeId":73,"name":"TweenService","isService":1,"count":1}
+
+=== Script Source & Names ===
+
+[AssetService#0] AttributesSerialize valType=1 count=1
+00000000
+
+[AssetService#0] Name valType=1 count=1
+AssetService
+
+[Atmosphere#1] AttributesSerialize valType=1 count=1
+00000000
+
+[Atmosphere#1] Name valType=1 count=1
+Atmosphere
+
+[AvatarAbilityRules#2] AttributesSerialize valType=1 count=1
+00000000
+
+[AvatarAbilityRules#2] Name valType=1 count=1
+AvatarAbilityRules
+
+[AvatarAccessoryRules#3] AttributesSerialize valType=1 count=1
+00000000
+
+[AvatarAccessoryRules#3] Name valType=1 count=1
+AvatarAccessoryRules
+
+[AvatarAnimationRules#4] AttributesSerialize valType=1 count=1
+00000000
+
+[AvatarAnimationRules#4] Name valType=1 count=1
+AvatarAnimationRules
+
+[AvatarBodyRules#5] AttributesSerialize valType=1 count=1
+00000000
+
+[AvatarBodyRules#5] Name valType=1 count=1
+AvatarBodyRules
+
+[AvatarClothingRules#6] AttributesSerialize valType=1 count=1
+00000000
+
+[AvatarClothingRules#6] Name valType=1 count=1
+AvatarClothingRules
+
+[AvatarCollisionRules#7] AttributesSerialize valType=1 count=1
+00000000
+
+[AvatarCollisionRules#7] Name valType=1 count=1
+AvatarCollisionRules
+
+[AvatarRules#8] AttributesSerialize valType=1 count=1
+00000000
+
+[AvatarRules#8] Name valType=1 count=1
+DefaultAvatarRules
+
+[AvatarSettings#9] AttributesSerialize valType=1 count=1
+00000000
+
+[AvatarSettings#9] Name valType=1 count=1
+AvatarSettings
+
+[BloomEffect#10] AttributesSerialize valType=1 count=2
+0000000000000000
+
+[BloomEffect#10] Name valType=1 count=2
+Bloom
+---
+Bloom
+
+[BlurEffect#11] AttributesSerialize valType=1 count=1
+00000000
+
+[BlurEffect#11] Name valType=1 count=1
+Blur
+
+[BubbleChatConfiguration#12] AttributesSerialize valType=1 count=1
+00000000
+
+[BubbleChatConfiguration#12] Name valType=1 count=1
+BubbleChatConfiguration
+
+[CSGDictionaryService#13] AttributesSerialize valType=1 count=1
+00000000
+
+[CSGDictionaryService#13] Name valType=1 count=1
+CSGDictionaryService
+
+[Camera#14] AttributesSerialize valType=1 count=1
+00000000
+
+[Camera#14] Name valType=1 count=1
+Camera
+
+[ChannelTabsConfiguration#15] AttributesSerialize valType=1 count=1
+00000000
+
+[ChannelTabsConfiguration#15] Name valType=1 count=1
+ChannelTabsConfiguration
+
+[Chat#16] AttributesSerialize valType=1 count=1
+00000000
+
+[Chat#16] Name valType=1 count=1
+Chat
+
+[ChatInputBarConfiguration#17] AttributesSerialize valType=1 count=1
+00000000
+
+[ChatInputBarConfiguration#17] Name valType=1 count=1
+ChatInputBarConfiguration
+
+[ChatWindowConfiguration#18] AttributesSerialize valType=1 count=1
+00000000
+
+[ChatWindowConfiguration#18] Name valType=1 count=1
+ChatWindowConfiguration
+
+[CollectionService#19] AttributesSerialize valType=1 count=1
+00000000
+
+[CollectionService#19] Name valType=1 count=1
+CollectionService
+
+[ColorCorrectionEffect#20] AttributesSerialize valType=1 count=1
+00000000
+
+[ColorCorrectionEffect#20] Name valType=1 count=1
+ColorCorrection
+
+[ContextActionService#21] AttributesSerialize valType=1 count=1
+00000000
+
+[ContextActionService#21] Name valType=1 count=1
+ContextActionService
+
+[CookiesService#22] AttributesSerialize valType=1 count=1
+00000000
+
+[CookiesService#22] Name valType=1 count=1
+CookiesService
+
+[DataStoreService#23] AttributesSerialize valType=1 count=1
+00000000
+
+[DataStoreService#23] Name valType=1 count=1
+DataStoreService
+
+[Debris#24] AttributesSerialize valType=1 count=1
+00000000
+
+[Debris#24] Name valType=1 count=1
+Debris
+
+[Decal#25] AttributesSerialize valType=1 count=1
+00000000
+
+[Decal#25] Name valType=1 count=1
+Decal
+
+[DepthOfFieldEffect#26] AttributesSerialize valType=1 count=1
+00000000
+
+[DepthOfFieldEffect#26] Name valType=1 count=1
+DepthOfField
+
+[GamePassService#27] AttributesSerialize valType=1 count=1
+00000000
+
+[GamePassService#27] Name valType=1 count=1
+GamePassService
+
+[GuidRegistryService#28] AttributesSerialize valType=1 count=1
+00000000
+
+[GuidRegistryService#28] Name valType=1 count=1
+GuidRegistryService
+
+[HttpService#29] AttributesSerialize valType=1 count=1
+00000000
+
+[HttpService#29] Name valType=1 count=1
+HttpService
+
+[ImageLabel#30] AttributesSerialize valType=1 count=1
+00000000
+
+[ImageLabel#30] Name valType=1 count=1
+ImageLabel
+
+[InsertService#31] AttributesSerialize valType=1 count=1
+00000000
+
+[InsertService#31] Name valType=1 count=1
+InsertService
+
+[Instance#32] AttributesSerialize valType=1 count=4
+00000000000000000000000000000000
+
+[Instance#32] Name valType=1 count=4
+FilteredSelection
+---
+FilteredSelection
+---
+FilteredSelection
+---
+FilteredSelection
+
+[Lighting#33] AttributesSerialize valType=1 count=1
+5900000002000000260000005242585f4c69676874696e67546563686e6f6c6f6779556e69666965644d6967726174696f6e0301200000005242585f4f726967696e616c546563686e6f6c6f67794f6e46696c654c6f61640403000000
+
+[Lighting#33] Name valType=1 count=1
+Lighting
+
+[LocalizationService#34] AttributesSerialize valType=1 count=1
+00000000
+
+[LocalizationService#34] Name valType=1 count=1
+LocalizationService
+
+[LodDataService#35] AttributesSerialize valType=1 count=1
+00000000
+
+[LodDataService#35] Name valType=1 count=1
+Instance
+
+[LuaWebService#36] AttributesSerialize valType=1 count=1
+00000000
+
+[LuaWebService#36] Name valType=1 count=1
+LuaWebService
+
+[MaterialService#37] AttributesSerialize valType=1 count=1
+00000000
+
+[MaterialService#37] Name valType=1 count=1
+MaterialService
+
+[MeshPart#38] AttributesSerialize valType=1 count=32
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+[MeshPart#38] Name valType=1 count=32
+Microbe
+---
+BloodCell
+---
+Bacteria
+---
+Stomach
+---
+Pill
+---
+Lungs
+---
+Intestines
+---
+Heart
+---
+Brain
+---
+Bacteria
+---
+Bacteria
+---
+Microbe
+---
+Bacteria
+---
+Microbe
+---
+Bacteria
+---
+Microbe
+---
+Bacteria
+---
+Microbe
+---
+Microbe
+---
+Microbe
+---
+Microbe
+---
+Bacteria
+---
+Bacteria
+---
+Bacteria
+---
+Microbe
+---
+Bacteria
+---
+Microbe
+---
+Bacteria
+---
+Microbe
+---
+Bacteria
+---
+Microbe
+---
+Pill
+
+[Model#39] AttributesSerialize valType=1 count=33
+3f000000010000000e0000005242585f5265696d706f72744964022400000065323834326234342d356230362d346131302d613363312d3066353031666135653661393f000000010000000e0000005242585f5265696d706f7274496402240000006537
+
+[Model#39] Name valType=1 count=33
+Microbe_01
+---
+BloodCell_01
+---
+Bacteria_01
+---
+Stomach_01
+---
+Pill_01
+---
+Lungs_01
+---
+Intestines_01
+---
+Heart_01
+---
+Brain_01
+---
+Bacteria_01
+---
+Bacteria_01
+---
+Bacteria_01
+---
+Microbe_01
+---
+Bacteria_01
+---
+Microbe_01
+---
+Bacteria_01
+---
+Microbe_01
+---
+Bacteria_01
+---
+Microbe_01
+---
+Microbe_01
+---
+Microbe_01
+---
+Microbe_01
+---
+Bacteria_01
+---
+Bacteria_01
+---
+Bacteria_01
+---
+Microbe_01
+---
+Bacteria_01
+---
+Microbe_01
+---
+Bacteria_01
+---
+Microbe_01
+---
+Bacteria_01
+---
+Microbe_01
+---
+Pill_01
+
+[NonReplicatedCSGDictionaryService#40] AttributesSerialize valType=1 count=1
+00000000
+
+[NonReplicatedCSGDictionaryService#40] Name valType=1 count=1
+NonReplicatedCSGDictionaryService
+
+[Packages#41] AttributesSerialize valType=1 count=1
+00000000
+
+[Packages#41] Name valType=1 count=1
+Packages
+
+[PermissionsService#42] AttributesSerialize valType=1 count=1
+00000000
+
+[PermissionsService#42] Name valType=1 count=1
+PermissionsService
+
+[PhysicsService#43] AttributesSerialize valType=1 count=1
+00000000
+
+[PhysicsService#43] Name valType=1 count=1
+PhysicsService
+
+[PlayerEmulatorService#44] AttributesSerialize valType=1 count=1
+00000000
+
+[PlayerEmulatorService#44] Name valType=1 count=1
+PlayerEmulatorService
+
+[Players#45] AttributesSerialize valType=1 count=1
+00000000
+
+[Players#45] Name valType=1 count=1
+Players
+
+[ProcessInstancePhysicsService#46] AttributesSerialize valType=1 count=1
+00000000
+
+[ProcessInstancePhysicsService#46] Name valType=1 count=1
+ProcessInstancePhysicsService
+
+[ProximityPromptService#47] AttributesSerialize valType=1 count=1
+00000000
+
+[ProximityPromptService#47] Name valType=1 count=1
+ProximityPromptService
+
+[ReplicatedFirst#48] AttributesSerialize valType=1 count=1
+00000000
+
+[ReplicatedFirst#48] Name valType=1 count=1
+ReplicatedFirst
+
+[ReplicatedStorage#49] AttributesSerialize valType=1 count=1
+00000000
+
+[ReplicatedStorage#49] Name valType=1 count=1
+ReplicatedStorage
+
+[ScriptService#50] AttributesSerialize valType=1 count=1
+00000000
+
+[ScriptService#50] Name valType=1 count=1
+Instance
+
+[Selection#51] AttributesSerialize valType=1 count=1
+00000000
+
+[Selection#51] Name valType=1 count=1
+Selection
+
+[SerializationService#52] AttributesSerialize valType=1 count=1
+00000000
+
+[SerializationService#52] Name valType=1 count=1
+SerializationService
+
+[ServerScriptService#53] AttributesSerialize valType=1 count=1
+00000000
+
+[ServerScriptService#53] Name valType=1 count=1
+ServerScriptService
+
+[ServerStorage#54] AttributesSerialize valType=1 count=1
+00000000
+
+[ServerStorage#54] Name valType=1 count=1
+ServerStorage
+
+[ServiceVisibilityService#55] AttributesSerialize valType=1 count=1
+00000000
+
+[ServiceVisibilityService#55] Name valType=1 count=1
+ServiceVisibilityService
+
+[SoundService#56] AttributesSerialize valType=1 count=1
+00000000
+
+[SoundService#56] Name valType=1 count=1
+SoundService
+
+[SpawnLocation#57] AttributesSerialize valType=1 count=1
+00000000
+
+[SpawnLocation#57] Name valType=1 count=1
+SpawnLocation
+
+[StarterCharacterScripts#58] AttributesSerialize valType=1 count=1
+00000000
+
+[StarterCharacterScripts#58] Name valType=1 count=1
+StarterCharacterScripts
+
+[StarterGui#59] AttributesSerialize valType=1 count=1
+00000000
+
+[StarterGui#59] Name valType=1 count=1
+StarterGui
+
+[StarterPack#60] AttributesSerialize valType=1 count=1
+00000000
+
+[StarterPack#60] Name valType=1 count=1
+StarterPack
+
+[StarterPlayer#61] AttributesSerialize valType=1 count=1
+00000000
+
+[StarterPlayer#61] Name valType=1 count=1
+StarterPlayer
+
+[StarterPlayerScripts#62] AttributesSerialize valType=1 count=1
+00000000
+
+[StarterPlayerScripts#62] Name valType=1 count=1
+StarterPlayerScripts
+
+[StringValue#63] AttributesSerialize valType=1 count=1
+00000000
+
+[StringValue#63] Name valType=1 count=1
+InsertionHash
+
+[StudioData#64] AttributesSerialize valType=1 count=1
+00000000
+
+[StudioData#64] Name valType=1 count=1
+StudioData
+
+[SunRaysEffect#65] AttributesSerialize valType=1 count=2
+0000000000000000
+
+[SunRaysEffect#65] Name valType=1 count=2
+SunRays
+---
+SunRays
+
+[Teams#66] AttributesSerialize valType=1 count=1
+00000000
+
+[Teams#66] Name valType=1 count=1
+Teams
+
+[TeleportService#67] AttributesSerialize valType=1 count=1
+00000000
+
+[TeleportService#67] Name valType=1 count=1
+Teleport Service
+
+[Terrain#68] AttributesSerialize valType=1 count=1
+00000000
+
+[Terrain#68] Name valType=1 count=1
+Terrain
+
+[TestService#69] AttributesSerialize valType=1 count=1
+00000000
+
+[TestService#69] Name valType=1 count=1
+TestService
+
+[TextChatService#70] AttributesSerialize valType=1 count=1
+00000000
+
+[TextChatService#70] Name valType=1 count=1
+TextChatService
+
+[TimerService#71] AttributesSerialize valType=1 count=1
+00000000
+
+[TimerService#71] Name valType=1 count=1
+Instance
+
+[TouchInputService#72] AttributesSerialize valType=1 count=1
+00000000
+
+[TouchInputService#72] Name valType=1 count=1
+TouchInputService
+
+[TweenService#73] AttributesSerialize valType=1 count=1
+00000000
+
+[TweenService#73] Name valType=1 count=1
+TweenService
+
+[UGCAvatarService#74] AttributesSerialize valType=1 count=1
+00000000
+
+[UGCAvatarService#74] Name valType=1 count=1
+UGCAvatarService
+
+[UICorner#75] AttributesSerialize valType=1 count=1
+00000000
+
+[UICorner#75] Name valType=1 count=1
+UICorner
+
+[UIGradient#76] AttributesSerialize valType=1 count=1
+00000000
+
+[UIGradient#76] Name valType=1 count=1
+UIGradient
+
+[UIPadding#77] AttributesSerialize valType=1 count=1
+00000000
+
+[UIPadding#77] Name valType=1 count=1
+UIPadding
+
+[VRService#78] AttributesSerialize valType=1 count=1
+00000000
+
+[VRService#78] Name valType=1 count=1
+VRService
+
+[VideoCaptureService#79] AttributesSerialize valType=1 count=1
+00000000
+
+[VideoCaptureService#79] Name valType=1 count=1
+VideoCaptureService
+
+[VideoService#80] AttributesSerialize valType=1 count=1
+00000000
+
+[VideoService#80] Name valType=1 count=1
+VideoService
+
+[VirtualInputManager#81] AttributesSerialize valType=1 count=1
+00000000
+
+[VirtualInputManager#81] Name valType=1 count=1
+VirtualInputManager
+
+[VoiceChatService#82] AttributesSerialize valType=1 count=1
+00000000
+
+[VoiceChatService#82] Name valType=1 count=1
+VoiceChatService
+
+[Workspace#83] AttributesSerialize valType=1 count=1
+00000000
+
+[Workspace#83] Name valType=1 count=1
+Workspace
